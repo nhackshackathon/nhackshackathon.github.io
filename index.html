@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NHacks VI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="chota.min.css">
+		<link rel="stylesheet" href="fadein.css">
+		<style type="text/css">
+			html {
+				scroll-behavior: smooth;
+			}
+			body{
+				margin:0;
+				padding:0;
+				background-color:#E8EBF7;
+				width:100%;
+			}
+
+			.row{
+				width:100%;
+				margin:0;
+			}
+			.splash{
+				background-color:#444444;
+				z-index: -99;
+				width:100%;
+			}
+			.logo{
+				width:500px;
+				display:block;
+				margin-left:auto;
+				margin-right:auto;
+				padding-top:60px;
+			}
+			.splash p{
+				font-family:Consolas;
+				color:white;
+				line-height:0.8;
+				text-align:center;
+			}
+			.infoPoint{
+				font-size:25px;
+				color:white;
+			}
+			.infoFootnote{
+				font-size:14px;
+				padding-left:60px;
+				padding-right:60px;
+				line-height:2.0;
+			}
+			.infoCont{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width:100%;
+			}
+			.mainLinks{
+				padding-left:20%;
+				padding-right:20%;
+				padding-top:30px;
+				padding-bottom:180px;
+			}
+			.headerLink{
+				text-decoration: underline;
+				white-space: nowrap;
+				color:white;
+			}
+			.headerLink:hover{
+
+			}
+			.section2{
+				z-index: -99;
+				width:100%;
+				height:100vh;
+				background-color:white;
+			}
+			.section2{
+				z-index: -99;
+				width:100%;
+				height:100vh;
+			}
+			.textBox{
+				border-radius:10px;
+				width:80%;
+				margin:-133px;
+				margin-left:20%;
+				margin-right:20%;
+			}
+			.quesBox{
+				background-color:#6184D8;
+			}
+			.textHeader{
+				margin-top:30px;
+				font-family:consolas;
+				font-size:25px;
+				color:white;
+			}
+			.boxText p{
+				font-family:consolas;
+				color:white;
+			}
+			.ques{
+				font-size:18px;
+			}
+			.answ{
+				font-size:15px;
+			}
+			.boxText{
+				margin-left:50px;
+				margin-right:50px;
+				margin-top:20px;
+				margin-bottom:40px;
+			}
+			.whoSect{
+				margin-top:300px;
+			}
+			.whoBox{
+				background-color:#EF626C;
+			}
+			.eventSect{
+				margin-top:300px;
+			}
+			.eventBox{
+				background-color:#00A896;
+			}
+			.footer{
+				margin-top:200px;
+				background-color:#444444;
+				padding-bottom:50px;
+			}
+			.sponsorImg{
+				padding-left:20px;
+				padding-right:20px;
+			}
+			.imgCont{
+				margin-top:30px;
+			}
+			@media only screen and (max-width: 800px) {
+				.textBox{
+					margin-left:10%;
+					margin-right:10%;
+				}
+			}
+			@media only screen and (max-width: 600px) {
+				.textBox{
+					margin-left:5%;
+					margin-right:5%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class='splash'>
+			<div class='row'>
+				<img src='nhacksvi_logo.webp' class='logo fade-in'>
+			</div>
+			
+			<div class='infoCont row fade-in'>
+				<div class='infoBox'>
+					<p class='infoPoint'>date = June 12th-13th</p>
+					<p class='infoPoint'>location = virtual</p>
+					<p class='infoPoint'><a class='headerLink' href='#event'>prizes</a> = $8000+*</p>
+					<p class='infoPoint'><a class='headerLink' href='#event'>workshops</a> = 10+*</p>
+					<p class='infoFootnote'>*based on 2020 statistics, check back in a few weeks!</p>
+					<p class='infoFootnote'>a special thanks to our <a class='headerLink' href='#sponsors'>sponsors!</a></p>
+				</div>
+			</div>
+
+			<div class='mainLinks row is-center fade-in'>
+				<a class='textHeader headerLink col is-center' href='#who'>who we are</a>
+				<a class='textHeader headerLink col is-center' href='#' style='color:#4DFF4D'>register</a>
+				<a class='textHeader headerLink col is-center' href='#event'>event info</a>
+			</div>
+		</div>
+		<div class='row' id='questions'>
+			<div class='col textBox quesBox'>
+				<a class='textHeader headerLink row is-center' href='#questions'>questions?</a>
+				<div class='boxText'>
+					<p class='ques'>What's a hackathon?</p>
+					<p class='answ'>A hackathon is a competition where students, either as a team or individually, have to create a project within a set time frame. At the hackathon, there are also workshops for those who aren't familiar with programming, or just want to learn something new.</p>
+					<p class='ques'>I don't know how to program, can I still compete?</p>
+					<p class='answ'>Yes! We have workshops teaching the basics, along with mentors in our discord to help you along with your project!</p>
+					<p class='ques'>Who's elegible?</p>
+					<p class='answ'>Any high school or middle school student is eligible to submit a project.</p>
+					<p class='ques'>Where is it?</p>
+					<p class='answ'>This hackathon is competely online! All announcements and workshops will be done through discord and project submissions will be done through devpost!</p>
+					<p class='ques'>I have more questions/want to help!</p>
+					<p class='answ'>You can reach us by email at nhacks.contact@gmail.com</p>
+				</div>				
+			</div>
+		</div>
+		
+		<div class='row whoSect' id='who'>
+			<div class='col textBox whoBox'>
+				<p class='textHeader row is-center'>who we are</p>
+				<div class='boxText'>
+					<p>Five years ago, we started NHacks as Michigan’s first high school hackathon, with sponsorships from Domino’s Pizza, FarmLogs, MPowered Entrepreneurship, Michigan Hackers, Hacker Fund, and many more. As the first, we’ve decided to set an example for young hackers around the state. We had over 100 attendees and mentors and were featured on TV. 2 years ago, we added Microsoft, Soylent, Nexcess, and about 20 other companies as sponsors, and surpassed 175 registrants. Last year, as we approached unforeseen time periods, we shifted to an online hackathon and reached over 20 countries, surpassing over 300 registrants for a virtual hackathon. This year, NHacks is going to be the biggest and best it has ever been, including the range and diversity of our sponsors.</p>
+				</div>				
+			</div>
+		</div>
+
+		<div class='row eventSect' id='event'>
+			<div class='col textBox eventBox'>
+				<p class='textHeader row is-center'>event info</p>
+				<div class='boxText'>
+					<p>We're still in the process of planning this year's event, but here's some info on you can expect based on last year's event!</p>
+					<p><i>$8500+ worth of prizes</i></p>
+					<p><i>Introductory workshops on Java, Python, and CAD</i></p>
+					<p><i>Intermediate workshops on iOS, Android, Web Development, UX Design, and Augmented Reality</i></p>
+					<p><i>Panels with past organizers and women in STEM</i></p>
+					<p><i>Keynotes on learning CS as an international student, business ventures, and GirlGenius</i></p>
+					<p>Check out the website for last year's event <a href='nhacksv_website/index.html' class='headerLink'>here!</a></p>
+				</div>				
+			</div>
+		</div>
+
+		<div class='row footer' id='sponsors'>
+			<p class='textHeader row is-center'>sponsors</p>
+			<div class='imgCont row is-center'>
+				<img class='col-2 sponsorImg' src='sponsorImgs/makeschool.webp'>
+				<img class='col-2 sponsorImg' src='sponsorImgs/replit.webp'>
+				<img class='col-2 sponsorImg' src='sponsorImgs/sashido.webp'>
+			</div>
+			
+		</div>
+	</body>
+</html>

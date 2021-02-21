@@ -1,0 +1,180 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: Roboto;
+	font-weight:300;
+}
+.logo_cont{
+	height:100%;
+}
+.logo_cont img{
+	width:70%;
+}
+.navbar{
+	padding-top:35px;
+	padding-right:40px;
+}
+.main_text{
+	height:100%;
+	padding-right:50px;
+	padding-top:30px;
+	margin-left:0px;
+}
+.main_info{
+	margin-top:50px;
+	width:100%;
+	margin-left:0px;
+}
+.button{
+	height:40px;
+	border-radius:40px;
+}
+.button p{
+	color:white;
+}
+.reg{
+	background-color: #005216;
+	width:150px;
+}
+.reg_cont{
+	margin-top:40px;
+}
+.inf{
+	background-color: #bfbfbf;
+	width:300px;
+}
+.lm{
+	margin-top:60px;
+	margin-bottom:30px;
+}
+.lm_text{
+	color:grey;
+	font-size:18px;
+}
+.lm_text img{
+	width:25px;
+}
+.site_links{
+	font-size:20px;
+	font-weight:300;
+}
+h3{
+	font-weight:300;
+}
+.sect{
+	height:100%;
+	width:100%;
+	padding:50px;
+	padding-left:100px;
+	padding-right:100px;
+}
+.sect_white{
+	background-color:white;
+	color:black;
+}
+.sect_green{
+	background-color:#005216;
+	color:white;
+}
+.sect h3{
+	margin-bottom:50px;
+}
+/* Prizes */
+.sect3 h3{
+	margin-bottom:30px;
+}
+.inf_container{
+	margin-top:35px;
+}
+a{
+	cursor:pointer;
+}
+th, td{
+	width:340px;
+	padding-left:50px;
+	padding-right:50px;
+}
+.col1{
+	width:220px;
+	padding-right:10px;
+}
+th{
+	border-bottom:2px solid black;
+}
+td{
+	border-bottom:1px solid rgba(0, 0, 0, 0.5);
+}
+.white_lines th{
+	border-bottom:2px solid white;
+}
+.white_lines td{
+	border-bottom:1px solid white;
+}
+.schedule_text{
+	margin-bottom:50px;
+}
+h4{
+	font-family: Roboto;
+	font-weight:300;	
+}
+.mc1{
+	margin-left:20px;
+	margin-right:20px;
+}
+.sponsor_img{
+	max-width:200px;
+	margin-left:5px;
+	margin-right:5px;
+}
+.blue{
+	background-color:#5863F8;
+}
+.rose{
+	background-color:#F45B69;
+}
+.bluegreen{
+	background-color:#59C3C3;
+}
+.mentor_card{
+	color:white;
+	margin-bottom:20px;
+}
+.mentor_pic{
+	margin:0;
+	max-width:8%;
+}
+.mentor_pic img{
+	clip-path: circle(50% at center);
+}
+.mentor_des{
+	margin:0;
+	margin-left:30px;
+}
+h4{
+	margin-top:30px;
+}
+@media (max-width: 1000px) {
+	.mentor_pic{
+		max-width:100%;
+	}
+}
+@media (max-width: 600px) {
+	.mentor_des{
+		margin-left:0px;
+		padding:10px;
+	}
+	.main_text{
+		padding-left:50px;
+		padding-right:50px;
+		text-align:center;
+	}
+	.sect{
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
+@media (max-width: 480px) {
+	.navbar{
+		padding-right:0;
+	}
+}

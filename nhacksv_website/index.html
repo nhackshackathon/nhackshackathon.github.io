@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>NHacks 2020</title>
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="NHacks is a high school hackathon aiming to introduce computer science to high schoolers and bring likeminded coders together! A hackathon is a competition where students, either as a team or individually, have to create a project within a set time frame, in this case, 30 hours (though we encourage you to sleep). At the hackathon, there are also workshops for those who aren't familiar with programming, or just want to learn something new." />
+	<link rel="icon" type="image/png" href="favicon_new2.ico" />
+	<link rel="stylesheet" href="https://unpkg.com/chota@latest">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<nav class="nav navbar">
+		<div class="nav-right site_links">
+			<a onclick="scrollToId('prizes')">Prizes</a>
+			<a onclick="scrollToId('schedule')">Schedule</a>
+			<a onclick="scrollToId('mentors')">Mentors</a>
+			<a onclick="scrollToId('contact')">Contact</a>
+		</div>
+	</nav>
+	<div class="row main_info">
+		<div class="col logo_cont">
+			<div class="is-center">
+				<picture class="is-center">
+					<source type="image/webp" srcset="nhacks_logo_s_dark.webp">
+					<source type="image/png" srcset="nhacks_logo_s_dark.png">
+					<img src="nhacks_logo_s_dark.png" alt="Main logo">
+				</picture>
+			</div>
+		</div>
+		<div class="col-6 main_text">
+			<h3>We're happy to announce that this year's hackathon will be held online!</h3>
+			<p>
+				This year we have over a thousand dollars worth of prizes from Amazon Echo Dots to camera drones. <a onclick="scrollToId('prizes')">Click to see the full list of prizes.</a>
+			</p>
+			<p>
+				NHacks 2020 will begin at <b>August 22nd 2PM EST</b>! Submissions are due in 30 hours, at August 23rd 8PM EST. 
+			</p>
+			<div class='row is-center reg_cont'>
+				<a href="https://forms.gle/8jEZ9WQjBzxr97Jw5" target='_blank'>
+					<div class='button reg'>
+						<p>Register</p>
+					</div>
+				</a>
+			</div>
+			<div class='row is-center inf_container'>
+				<a onclick="scrollToId('faqs')">
+					<div class='button inf'>
+						<p>What's a Hackathon?</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class='text-center lm'>
+		<a onclick="scrollToId('faqs')" class='lm_text'>
+			learn more<br>
+			<img src='down_arrow.png' alt='Learn more button'></img>
+		</a>
+	</div>
+	<div class='sect sect2 sect_green' id='faqs'>
+		<h3 class='text-center'>
+			Frequently Asked Questions
+		</h3>
+		<b>What's a hackathon?</b>
+		<p>A hackathon is a competition where students, either as a team or individually, have to create a project within a set time frame, in this case, 30 hours (though we encourage you to sleep). At the hackathon, there are also workshops for those who aren't familiar with programming, or just want to learn something new.</p>
+		<b>I don't know how to program, can I still compete?</b>
+		<p>Yes! We have workshops teaching the basics, along with mentors to help you along with your project!</p>
+		<b>Who's elegible?</b>
+		<p>Any high school or middle school student above the age of 13 is eligible to submit a project (including rising college freshman).</p>
+		<b>Where is it?</b>
+		<p>This hackathon is competely online! All workshops will be done through Zoom and project submissions will be done through devpost! In addition, our discord server is available for you to talk with likeminded coders, along with mentors to give you programming help.</p>
+		<b>When is it?</b>
+		<p>NHacks 2020 will begin at August 22nd 2PM EST! Submissions are due in 30 hours, at August 23rd 8PM EST.</p>
+	</div>
+	<div class='sect sect3 sect_white' id='prizes'>
+		<h3 class='text-center'>
+			Prizes (more to come!)
+		</h3>
+		<table class='is-center text-center'>
+			<tbody>
+				<tr>
+					<th class='col1'>Category</th>
+					<th>Prize</th>
+				</tr>
+				<tr>
+					<td class='col1'>Most Advanced Technique</td>
+					<td>Amazon Echo Dot (one per team member)</td>
+				</tr>
+				<tr>
+					<td class='col1'>Most Useful in Real Life</td>
+					<td>Camera Drone (one per team member)</td>
+				</tr>
+				<tr>
+					<td class='col1'>Most Creative</td>
+					<td>Fully Wireless Waterproof Earbuds (one per team member)</td>
+				</tr>
+				<tr>
+					<td class='col1'>Best CAD design</td>
+					<td>Free Custom 3D printed design (one per team member)</td>
+				</tr>
+				<tr>
+					<td class='col1'>Best Beginner</td>
+					<td>Google Chromecast (2 maximum)</td>
+				</tr>
+				<tr>
+					<td class='col1'>Workshop Raffle</td>
+					<td>HyperX Gaming Keyboard</td>
+				</tr>
+				<tr>
+					<td class='col1'>Social Media Raffle</td>
+					<td>30ft LED light strips (giving away 2 total)</td>
+				</tr>
+				<tr>
+					<td class='col1'>Top 15 Projects</td>
+					<td>6 Months of 1Password</td>
+				</tr>
+				<tr>
+					<td class='col1'>EchoAR Prize</td>
+					<td>$50 Amazon Gift Card</td>
+				</tr>
+				<tr>
+					<td class='col1'>KuzoClass - Most Market Ready Startup (top 5)</td>
+					<td>Free spot in the KuzoClass Program</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class='sect sect4 sect_green' id='schedule'>
+		<h3 class='text-center'>
+			Schedule/Workshops
+		</h3>
+		<p class='text-center schedule_text'>NHacks 2020 will begin at August 22nd 2PM EST! Submissions are due in 30 hours, at August 23rd 8PM EST. In addition, we will have workshops throughout the day that we will inform you about via email and discord.</p>
+		<table class='is-center text-center white_lines'>
+			<tbody>
+				<tr>
+					<th class='col1'>Time</th>
+					<th>Event</th>
+				</tr>
+				<tr>
+					<td class='col1'>8/22 2pm</td>
+					<td>Hackathon starts: start coding!</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/22 3:30pm</td>
+					<td>Past organizers panel</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/22 4pm</td>
+					<td>Intro to Java, concurrent with Intro to Python and EchoAR: building a AR/VR App in 15 minutes or less</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/22 5pm</td>
+					<td>Intro to iOS, concurrent with Intro to Android</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/22 6pm</td>
+					<td>Intro to Web Development, concurrent with Intro to CAD</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/22 7pm</td>
+					<td>Women in STEM Panel</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/23 12pm</td>
+					<td>UX Design Workshop</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/23 1pm</td>
+					<td>Business Ventures Keynote</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/23 2pm</td>
+					<td>Learning CS as an International Student Keynote</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/23 3:30pm</td>
+					<td>GirlGenius Keynote</td>
+				</tr>
+				<tr>
+					<td class='col1'>8/23 8pm</td>
+					<td>Submissions due</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class='sect sect5 sect_white' id='mentors'>
+		<h3 class='text-center mentors_header'>
+			Meet our Mentors!
+		</h3>
+		<h4 class='mentors_sub'>
+			Past Organizer Panel
+		</h4>
+		<div class='mentors_cont mc1'>
+			<div class='card row mentor_card blue'>
+				<div class='col-3 is-center mentor_pic'>
+					<img src='mentor_pics_webp/1.webp'>
+				</div>
+				<div class='col is-center mentor_des'>
+					<p><b>Ashley David</b> - She is a sophomore at the University of Michigan for Computer Science and a Computer Science instructor at Juni laerning. She was the organizer of NHacks III and IV.</p>
+				</div>
+			</div>
+			<div class='card row mentor_card blue'>
+				<div class='col-3 is-center mentor_pic'>
+					<img src='mentor_pics_webp/2.webp'>
+				</div>
+				<div class='col is-center mentor_des'>
+					<p><b>Advay Muchoor</b> - He is a current CS and Math sophomor at the University of Michigan and a data analytics intern at IHS Markit. He was the organizer of NHacks II, III, IV. He was the organizer of NHacks II, III, and IV.</p>
+				</div>
+			</div>
+			<div class='card row mentor_card blue'>
+				<div class='col-3 is-center mentor_pic'>
+					<img src='mentor_pics_webp/3.webp'>
+				</div>
+				<div class='col is-center mentor_des'>
+					<p><b>Ronit Tiwary</b> - He is a student at the University of Michigan for computer science. He was a SWE intern at Benzinga 2019, and AWS 2020. He was the cofounder of NHacks and organizer of NHacks I, II, III.</p>
+				</div>
+			</div>
+			<div class='card row mentor_card blue'>
+				<div class='col-3 is-center mentor_pic'>
+					<img src='mentor_pics_webp/4.webp'>
+				</div>
+				<div class='col is-center mentor_des'>
+					<p><b>Max You</b> - He is an intern at the University of Michigan for computer science and an SWE intern Pi Distribution 2019. He was the cofounder of NHacks and organizer of NHacks I, II, and III.</p>
+				</div>
+			</div>
+			<div class='card row mentor_card blue'>
+				<div class='col-3 is-center mentor_pic'>
+					<img src='mentor_pics_webp/5.webp'>
+				</div>
+				<div class='col is-center mentor_des'>
+					<p><b>Jason Israilov</b> - Current student at Michigan State for Computer Science and Cyber Security. He is a current special projects intern for Kode Labs Detroit, along with being the web design lead for the MSU solar racing team. He was the organizer of NHacks II and III. </p>
+				</div>
+			</div>
+		</div>
+
+		<h4 class='mentors_sub'>
+			Women in Tech Panel
+		</h4>
+		<div class='mentors_cont mc1'>
+			<div class='card row mentor_card bluegreen'>
+				<div class='col-3 is-center mentor_pic'>
+					<img src='mentor_pics_webp/wit_1.webp'>
+				</div>
+				<div class='col is-center mentor_des'>
+					<p><b>Emma Brown</b> - Junior at the University of Michigan majoring in User Experience Design in The School of Information with minors in Computer Science and Community Action & Social Change. She is involved in Girls in Electrical Engineering and Computer Science (GEECS) and does research in Rise Up for CS program.</p>
+				</div>
+			</div>
+			<div class='card row mentor_card bluegreen'>
+				<div class='col-3 is-center mentor_pic'>
+					<img src='mentor_pics_webp/wit_2.webp'>
+				</div>
+				<div class='col is-center mentor_des'>
+					<p><b>Sophie Lau</b> - She is a senior at the Univeristy of Mcihigan for Computer Science. Currently, she is a software engineerign intern at Uber, along with being involved in Girls in Electrical Engineering and Computer Science (GEECS).</p>
+				</div>
+			</div>
+			<div class='card row mentor_card bluegreen'>
+				<div class='col-3 is-center mentor_pic'>
+					<img src='mentor_pics_webp/wit_3.webp'>
+				</div>
+				<div class='col is-center mentor_des'>
+					<p><b>Elise Mignone</b> - She is a sophomore at the Georgia Institute of Technology as a Chemical and Biomolecular Engineering major. She is the Society of Women Engineers Vice President of Industry Relations, along with being involved in the Spanish Speaking Organization, Student Government Association, and Climbing Club.</p>
+				</div>
+			</div>
+			<div class='card row mentor_card bluegreen'>
+				<div class='col-3 is-center mentor_pic'>
+					<img src='mentor_pics_webp/wit_4.webp'>
+				</div>
+				<div class='col is-center mentor_des'>
+					<p><b>Robin Ryce</b> - She is a senior at the University of Michigan for Electrical Engineering with a concentration in Computers and Circuits. She is involved in the National Society of Black Engineers, along with playing intramural volleyball.</p>
+				</div>
+			</div>
+		</div>
+
+		<h4 class='mentors_sub'>
+			Workshop Hosts (coming soon!)
+		</h4>
+		<div class='mentors_cont'>
+			<p></p>
+		</div>
+	</div>
+
+	<div class='sect sect6 sect_green' id='contact'>
+		<h3 class='text-center'>
+			Contact
+		</h3>
+		<p class='text-center'>If you have any questions, please email us at: nhacks.contact@gmail.com</p>
+	</div>
+
+	<div class='sect sect7 sect_white'>
+		<h3 class='text-center'>
+			Sponsors
+		</h3>
+		<div class='row is-center'>
+			<img class='sponsor_img col' src='sponsors_webp/computech.webp' alt='Computech Logo'>
+			<img class='sponsor_img col' src='sponsors_webp/miracle.webp' alt='Miracle Logo'>
+			<img class='sponsor_img col' src='sponsors_webp/flashforge.webp' alt='FlashForgeUSA Logo'>
+			<img class='sponsor_img col' src='sponsors_webp/stickergiant.webp' alt='Sticker Giant Logo'>
+			<img class='sponsor_img col' src='sponsors_webp/thecoderschool.webp' alt='The Coder School Logo'>
+			<img class='sponsor_img col' src='sponsors_webp/echoar.webp' alt='EchoAR Logo'>
+			<img class='sponsor_img col' src='sponsors_webp/kuzoclass.webp' alt='KuzoClass Logo'>
+		</div>
+	</div>
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-analytics.js"></script>
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyD7MfMXM3x04YB89PrfoK4AYucOR0Lc5HM",
+	    authDomain: "nhacks2020.firebaseapp.com",
+	    databaseURL: "https://nhacks2020.firebaseio.com",
+	    projectId: "nhacks2020",
+	    storageBucket: "nhacks2020.appspot.com",
+	    messagingSenderId: "620091270760",
+	    appId: "1:620091270760:web:61ba3507da8c358df47ddd",
+	    measurementId: "G-22QDMNKH45"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	  firebase.analytics();
+	</script>
+</body>
+</html>
