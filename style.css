@@ -38,7 +38,6 @@ body{
 	font-size:14px;
 	padding-left:60px;
 	padding-right:60px;
-	line-height:2.0;
 }
 .infoCont{
 	display: flex;
@@ -137,5 +136,23 @@ body{
 	.textBox{
 		margin-left:5%;
 		margin-right:5%;
+	}
+	.infoPoint{
+		font-size:18px;
+	}
+	.infoFootnote{
+		font-size:12px;
+	}
+	.mainLinks a{
+		font-size:20px;
+		line-height:0.8;
+	}
+	.mainLinks{
+		padding-top:15px;
+		padding-bottom:190px;
+
+	}
+	.logo{
+		padding-top: 35px;
 	}
 }
