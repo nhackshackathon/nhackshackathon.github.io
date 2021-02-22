@@ -1,6 +1,3 @@
-html {
-	scroll-behavior: smooth;
-}
 body{
 	margin:0;
 	padding:0;
@@ -125,6 +122,9 @@ body{
 }
 .imgCont{
 	margin-top:30px;
+}
+.scroll{
+	cursor:pointer;
 }
 @media only screen and (max-width: 800px) {
 	.textBox{

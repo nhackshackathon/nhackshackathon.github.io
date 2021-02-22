@@ -10,7 +10,9 @@
 		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" type="image/webp" href="favicon.webp">
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZG8225JQCT"></script>
 		<script>
@@ -31,22 +33,22 @@
 				<div class='infoBox'>
 					<p class='infoPoint'>date = June 18th-20th</p>
 					<p class='infoPoint'>location = virtual</p>
-					<p class='infoPoint'><a class='headerLink' href='#event'>prizes</a>* = $8000+</p>
-					<p class='infoPoint'><a class='headerLink' href='#event'>workshops</a>* = 10+</p>
+					<p class='infoPoint'><a class='headerLink scroll' data-href='#event'>prizes</a>* = $8000+</p>
+					<p class='infoPoint'><a class='headerLink scroll' data-href='#event'>workshops</a>* = 10+</p>
 					<p class='infoFootnote' style='line-height: 1.2;'>*based on 2020 statistics, check back in a few weeks!</p>
-					<p class='infoFootnote' style='line-height: 1.2;'>And a special thanks to our <a class='headerLink' href='#sponsors'>sponsors!</a></p>
+					<p class='infoFootnote' style='line-height: 1.2;'>And a special thanks to our <a class='headerLink' data-href='#sponsors'>sponsors!</a></p>
 				</div>
 			</div>
 
 			<div class='mainLinks row is-center fade-in'>
-				<a class='textHeader headerLink col is-center' href='#who'>who we are</a>
+				<a class='textHeader headerLink col is-center scroll' data-href='#who'>who we are</a>
 				<a class='textHeader headerLink col is-center' href='https://forms.gle/t7EwyCKvF6Jq3vLa6' rel="noopener" target='_blank' style='color:#4DFF4D'>register</a>
-				<a class='textHeader headerLink col is-center' href='#event'>event info</a>
+				<a class='textHeader headerLink col is-center scroll' data-href='#event'>event info</a>
 			</div>
 		</div>
 		<div class='row fade-in' id='questions'>
 			<div class='col textBox quesBox'>
-				<a class='textHeader headerLink row is-center' href='#questions'>questions?</a>
+				<a class='textHeader headerLink row is-center scroll' data-href='#questions'>questions?</a>
 				<div class='boxText'>
 					<p class='ques'>What's a hackathon?</p>
 					<p class='answ'>A hackathon is a competition where students, either as a team or individually, have to create a project within a set time frame. At the hackathon, there are also workshops for those who aren't familiar with programming, or just want to learn something new.</p>
