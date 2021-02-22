@@ -155,4 +155,11 @@ body{
 	.logo{
 		padding-top: 35px;
 	}
+	.textHeader{
+		font-size:20px;
+	}
+	.boxText{
+		margin-left:30px;
+		margin-right:30px;
+	}
 }
